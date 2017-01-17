@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'MarkForMC';
+  font-style: normal;
+  src: url(font-path('MarkForMC.ttf'));
+  src: url(font-path('MarkForMC.ttf')) format('truetype');
+}
+
+@font-face {
+  font-family: 'MarkForMC_Bold';
+  font-weight:bold;
+  font-style: italic;
+  src: url(font-path('MarkForMC_Bold.ttf'));
+  src: url(font-path('MarkForMC_Bold.ttf')) format('truetype');
+}

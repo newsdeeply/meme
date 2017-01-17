@@ -10,7 +10,7 @@ var MEME_SETTINGS = {
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:''Knockout 28 B''}.
   //fontFamilyOpts: ['Arial', 'Helvetica Neue', 'Comic Sans MS'],
-  fontFamilyOpts: ['Arial', 'DINNext', 'Helvetica Neue', 'Comic Sans MS'],
+  fontFamilyOpts: ['Arial', 'DINNext', 'MarkForMC', 'MarkForMC_Bold', 'Helvetica Neue', 'Comic Sans MS'],
   // Font size of main headline:
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
@@ -48,7 +48,7 @@ var MEME_SETTINGS = {
 
   // Path to the watermark image source, or blank for no watermark:
   // Alternatively, use '<%= asset_data_uri('vox.png') %>' to populate the watermark with base64 data, avoiding Cross-Origin issues.
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || '<%= image_path('vox.png') %>',
+  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || '<%= image_path('sd_w.png') %>',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the 'data' attributes with base64 data when concerned about Cross-Origin requests...
@@ -66,7 +66,9 @@ var MEME_SETTINGS = {
     {text: 'Water Deeply Blue', value: '<%= image_path('wd.png') %>', data: '<%= asset_data_uri('wd.png') %>'},
     {text: 'Arctic Deeply Blue', value: '<%= image_path('ad.png') %>', data: '<%= asset_data_uri('ad.png') %>'},
     {text: 'Refugees Deeply Blue', value: '<%= image_path('rd.png') %>', data: '<%= asset_data_uri('rd.png') %>'},
-    {text: 'Women and Girls Blue', value: '<%= image_path('wng.png') %>', data: '<%= asset_data_uri('wng.png') %>'}
+    {text: 'Women and Girls Blue', value: '<%= image_path('wng.png') %>', data: '<%= asset_data_uri('wng.png') %>'},
+
+    {text: 'Mastercard Center For Inclusive Growth', value: '<%= image_path('mcig.png') %>', data: '<%= asset_data_uri('mcig.png') %>'}
 
   ],
 
